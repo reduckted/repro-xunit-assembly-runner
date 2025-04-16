@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net9.0": {
+      "xunit.v3.runner.utility": {
+        "type": "Direct",
+        "requested": "[2.0.1, )",
+        "resolved": "2.0.1",
+        "contentHash": "OapNW9wfdd16Viq98g30EtR+MseT1EFo28vKnQoKdBKbDQxuSgmQoYhMDaSc9CLztA+gI51I50dlz6eNSWsYZQ==",
+        "dependencies": {
+          "Mono.Cecil": "0.11.6",
+          "xunit.abstractions": "2.0.3",
+          "xunit.v3.runner.common": "[2.0.1]"
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces": {
+        "type": "Transitive",
+        "resolved": "6.0.0",
+        "contentHash": "UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg=="
+      },
+      "Mono.Cecil": {
+        "type": "Transitive",
+        "resolved": "0.11.6",
+        "contentHash": "f33RkDtZO8VlGXCtmQIviOtxgnUdym9xx/b1p9h91CRGOsJFxCFOFK1FDbVt1OCf1aWwYejUFa2MOQyFWTFjbA=="
+      },
+      "xunit.abstractions": {
+        "type": "Transitive",
+        "resolved": "2.0.3",
+        "contentHash": "pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg=="
+      },
+      "xunit.v3.common": {
+        "type": "Transitive",
+        "resolved": "2.0.1",
+        "contentHash": "yAiB2YncUZ9NTzaByPElXFXZLnmksy5H9ufNqV1vAWRBWVohBnM7pwVcJG86nI7ZYnCJAulEqSTlw6O+JaXi5A==",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0"
+        }
+      },
+      "xunit.v3.runner.common": {
+        "type": "Transitive",
+        "resolved": "2.0.1",
+        "contentHash": "XhHprIUiDH1gHdlbHz2Dd2FIiooo82wkzOe+llaw+rIHij4G/vSDxLUTvhSUX6ZpbeHc1i3oEc2DahCFKidwzQ==",
+        "dependencies": {
+          "xunit.v3.common": "[2.0.1]"
+        }
+      }
+    }
+  }
+}
